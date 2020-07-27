@@ -1,0 +1,3 @@
+select X.NAME, X.ENTRY, Y.NAME, Y.ENTRY
+from STUDENT X, STUDENT Y
+where X.FIELD = Y.FIELD;

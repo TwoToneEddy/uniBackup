@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+    <fragment
+        android:id="@+id/editWorkoutsListFrag"
+        android:name="com.example.progressiveoverload.EditWorkoutsListFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+    </fragment>
+    
+    <fragment
+        android:id="@+id/editWorkoutsDetailFrag"
+        android:name="com.example.progressiveoverload.EditWorkoutsDetailFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+    </fragment>
+
+</LinearLayout>

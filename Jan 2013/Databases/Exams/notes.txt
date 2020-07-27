@@ -1,0 +1,72 @@
+Relations:
+
+Primary key:
+
+Company Name, Software Package, Support Contract
+The above is the primary key as all other fields can be determined if these are known.
+
+Functional Dependancies:
+
+Company Name, Software Package, Support Contract --> number of users
+Company Name --> office address
+Software Package --> Release date, Software type
+Support Contract , Number of users --> fee
+
+
+Normalised tables:
+
+as above lol
+
+
+
+
+Transactions:
+
+
+Four key properties:
+
+1	-	Atomicity	-	A transaction that us atomic will either execute all of its operations
+						or none of them.
+2		Durability	-	Information modified by a transaction must be store in the data base 
+						and not lost on a restart, ie, it must be stored in non-volatile mem
+3	-	Consistency	-	A transaction must leave the database in a consistent state.
+4	-	Isolation	-	Transactions cannot interfere with each other, ie, modify values in the
+						DB whilst other transactions are using them.
+						
+
+
+Lost update problem is when a transaction has read a value from the database before another 
+transaction updates the value. The transcation will perform its function on the old value
+and over write the value set by the previous transaction.
+
+
+uncommitted dependancy is when a transaction reads a value set by another transaction that
+has not been committed yet. When this value is rolled back by the previous transaction
+the actions performed by the second transaction are incorrect and cause an inconsistency.
+
+Inconsistent analysis is when a transaction reads and stores multiple elements from the data
+base and another transaction updates an already read element. The result is the stored elements
+will not be correct and result in an inconsistent analysis. 
+
+
+Two phase locking
+
+This is when a transaction must acquire a lock to modify or read a data item. It cannot 
+cannot modify or read a data item without one. When a transaction requests a lock on a data
+item but the data item is already locked it will wait until the lock is released. This 
+prevents the following issues encountered with concurrency in the following ways:
+
+Lost Update
+
+
+time		T1					t2				bal
+1							BEGIN TRANS			100
+2		BEGIN TRANS			WRITE_LOCK(BAL)		100
+3		WRITE_LOCK(BAL)		READ(BAL)			100
+4		WAIT				BAL = BAL + 100		100
+5		WAIT				WRITE BAL			200
+6		WAIT				COMMIT/UNLOCK(BAL)	200
+7		READ(BAL)								200	
+8		BAL = BAL - 50							200
+9		WRITE(BAL)								150
+10		COMMIT/UNLOCK(BAL)						150

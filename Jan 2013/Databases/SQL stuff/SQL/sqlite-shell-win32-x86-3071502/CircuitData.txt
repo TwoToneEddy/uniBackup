@@ -1,0 +1,19 @@
+Albert Park,Australia
+Sepang International Circuit,Malaysia
+Shanghai International Circuit,China
+Bahrain International Circuit,Bahrain
+Circuit de Catalunya,Spain
+Circuit de Monaco,Monaco
+Circuit Gilles Villeneuve,Canada
+Silverstone Circuit,United Kingdom
+Nurburgring,Germany
+Hungaroring,Hungary
+Circuit de Spa-francorchamps,Belgium
+Autodromo Nazionale Monza,Italy
+Marina Bay Street Circuit,Singapore
+Korea Internation Circuit,Korea
+Suzuka Circuit,Japan
+Buddh International Circuit,India
+Yas Marina Circuit,Abu Dhabi
+Circuit of the Americas,United States
+Autodromo Jose Carlos Pace,Brazil

@@ -1,0 +1,5 @@
+select SNAME, MCODE, MARK
+from REGISTER  X
+where MARK >  
+           (select avg (MARK) 
+           from REGISTER where  X.MCODE = MCODE);

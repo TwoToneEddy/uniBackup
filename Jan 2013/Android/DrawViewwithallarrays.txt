@@ -1,0 +1,142 @@
+package com.example.drawtest;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.view.View;
+import android.view.View.OnTouchListener;
+import android.view.MotionEvent;
+import android.util.Log;
+
+
+public class DrawView extends View implements OnTouchListener {
+	
+	  
+	Boolean init = false;
+	int boardSize = 8;	//Board size eg 8 = 8x8, 9 = 9x9
+	int x,y;
+	Boolean test;
+	Paint paint = new Paint();
+	int green = Color.rgb(0,100,0);
+	int white = Color.rgb(255,255,255);
+	int black = Color.rgb(0,0,0);
+	int brown = Color.rgb(139,69,19);
+	
+	
+	//Create empty arrays to store the tiles
+	//Try implementing with a 1D array
+	Tile[] tileBoard = new Tile[64];
+	
+/*	Tile[] tileRowA= new Tile[boardSize];
+	Tile[] tileRowB= new Tile[boardSize];
+	Tile[] tileRowC= new Tile[boardSize];
+	Tile[] tileRowD= new Tile[boardSize];
+	Tile[] tileRowE= new Tile[boardSize];
+	Tile[] tileRowF= new Tile[boardSize];
+	Tile[] tileRowG= new Tile[boardSize];
+	Tile[] tileRowH= new Tile[boardSize];*/
+	
+	
+    public DrawView(Context context) {
+        super(context);            
+    }
+
+
+    @Override
+    public void onDraw(Canvas canvas) {
+    	
+    	int width = canvas.getWidth();
+    	int boardIndent = 50; 
+    	int Border = 10;
+    	int tileSize = (width-(2*boardIndent))/boardSize; 	// 160
+    	
+    	//Draw border
+    	paint.setColor(brown);
+    	canvas.drawRect(boardIndent-Border,boardIndent-Border,(width-boardIndent)+Border,(width-boardIndent)+Border,paint);
+    	
+    	if(init == false){
+    		
+    		createBoard(canvas,tileBoard,tileSize,boardIndent);
+    		//createRow(canvas,tileBoard,tileSize,boardIndent,boardIndent);
+    		
+	    /*	createRow(canvas,tileRowA,tileSize,boardIndent,boardIndent);
+	    	createRow(canvas,tileRowB,tileSize,boardIndent,boardIndent + tileSize);
+	    	createRow(canvas,tileRowC,tileSize,boardIndent,boardIndent + (2*tileSize));
+	    	createRow(canvas,tileRowD,tileSize,boardIndent,boardIndent + (3*tileSize));
+	    	createRow(canvas,tileRowE,tileSize,boardIndent,boardIndent + (4*tileSize));
+	    	createRow(canvas,tileRowF,tileSize,boardIndent,boardIndent + (5*tileSize));
+	    	createRow(canvas,tileRowG,tileSize,boardIndent,boardIndent + (6*tileSize));
+	    	createRow(canvas,tileRowH,tileSize,boardIndent,boardIndent + (7*tileSize));*/
+	    	init = true; 
+    	}
+    		drawBoard(tileBoard);
+	    	
+	    /*	drawRow(tileRowA);
+	    	drawRow(tileRowB);
+	    	drawRow(tileRowC);
+	    	drawRow(tileRowD);
+	    	drawRow(tileRowE);
+	    	drawRow(tileRowF);
+	    	drawRow(tileRowG);
+	    	drawRow(tileRowH);*/     
+    }
+    
+    public void beenTouched(int x, int y){
+    	this.x=x;
+    	this.y=y;
+    	Qtouched(tileBoard);
+    	
+    /*	Qtouched(tileRowA);
+    	Qtouched(tileRowB);
+    	Qtouched(tileRowC);
+    	Qtouched(tileRowD);
+    	Qtouched(tileRowE);
+    	Qtouched(tileRowF);
+    	Qtouched(tileRowG);
+    	Qtouched(tileRowH);*/
+    	
+    	invalidate();	
+    }
+    
+    public void createRow(Canvas canvas,Tile[] row, int tileSize,int startX, int startY){
+	    for(int i = 0; i < boardSize; i++){
+	    		row[i]=new Tile(canvas,(i*tileSize)+startX,startY,tileSize);	
+	    }
+    }
+    
+    public void createBoard(Canvas canvas, Tile[] board,int tileSize, int indent){
+    	
+    	for(int j = 0; j < boardSize; j++){
+    		for(int i = 0; i < boardSize; i++){
+    			board[i+(j*boardSize)]=new Tile(canvas,(i*tileSize)+indent,indent + (j*tileSize),tileSize);
+    		}
+    	}
+    	
+    }
+    
+    public void drawRow(Tile[] row){
+    	for(int i = 0; i < boardSize; i++){
+    		row[i].drawTile();
+    	}
+    }
+    
+    public void drawBoard(Tile[] board){
+    	for(int i = 0; i < (boardSize*boardSize); i++){
+    		board[i].drawTile();
+    	}
+    }
+
+
+	@Override
+	public boolean onTouch(View v, MotionEvent event) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	public void Qtouched(Tile[] tile){
+    	for(int i = 0; i < (boardSize*boardSize); i++){
+    		tile[i].Qtouched(x,y);
+    	}
+	}
+
+}

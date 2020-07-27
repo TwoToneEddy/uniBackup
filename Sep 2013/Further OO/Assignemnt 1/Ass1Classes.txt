@@ -1,0 +1,25 @@
+Purchase:
+
+String Name
+Double untiPrice
+
+String getName()
+Double getUnitPrice()
+Double getTotalPrice()
+
+
+
+PurchaseByNumber:
+
+int quantity
+
+int getQuantity()
+
+
+
+
+PurchaseByWeight:
+
+Double weight
+
+Double getWeight()

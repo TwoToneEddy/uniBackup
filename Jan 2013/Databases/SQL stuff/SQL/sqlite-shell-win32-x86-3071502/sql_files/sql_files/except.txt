@@ -1,0 +1,3 @@
+SELECT code FROM module
+EXCEPT
+SELECT distinct mcode FROM register;

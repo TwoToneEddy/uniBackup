@@ -1,0 +1,4 @@
+Workout ID	Workout Day	Muscle Group
+Workout ID	Exercise ID
+Exercise ID	Exercise Name	Rest Period	Photo URI
+Exercise ID	Date	r1,r2,r3,r4,r5	w1,w2,w3,w4,w5 rest

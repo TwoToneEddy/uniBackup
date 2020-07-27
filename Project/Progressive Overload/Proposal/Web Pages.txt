@@ -1,0 +1,16 @@
+http://www.bodybuilding.com/fun/goulet11.htm
+http://www.aworkoutroutine.com/progressive-overload/
+http://bretcontreras.com/progressive-overload/
+
+Fragments
+http://www.vogella.com/tutorials/AndroidFragments/article.html
+http://www.tutorialspoint.com/android/android_fragments.htm
+
+Which platform
+http://www.inc.com/erik-sherman/avoiding-the-single-mobile-platform-trap.html
+http://www.entrepreneur.com/article/227426
+http://mobiledevices.about.com/od/mobileappbasics/ht/How-To-Choose-Right-Mobile-Platform-For-App-Development.htm
+
+SQL
+http://www.vogella.com/tutorials/AndroidSQLite/article.html
+

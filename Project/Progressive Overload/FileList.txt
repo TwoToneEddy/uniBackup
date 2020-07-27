@@ -1,0 +1,32 @@
+Classes:
+	TitleActivity.java
+		layout\titleActivtyLayout.xml
+		layout-port\titleActivityLayout.xml
+		
+		ViewStatsActivity.java
+			layout\viewStatsActivity.xml
+			layout-port\viewStatsActivity.xml
+		
+		EditComponentsActivity.java
+			layout\editComponentsActivty.xml
+			layout-port\editComponentsActivty.xml
+			
+			EditWorkoutsMainActivity.java
+				layout\editWorkoutsMainActivity.xml
+				layout-port\editWorkoutsMainActivity.xml
+				
+				EditWorkoutViewFragment.java	//First Port Act
+					layout\editWorkoutViewFragment.xml
+					layout-port\editWorkoutViewFragment.xml
+				
+				EditWorkoutDetailFragment.java
+					layout\editWorkoutDetailFragment.xml
+					layout\editWorkoutDetailFragmentAlternate.xml  //needs a create button rather than save
+				
+				EditWorkoutDetail.java
+					layout\editWorkoutDetail.xml
+			
+		SelectWorkoutsActivity.java
+			layout\selectWorkoutsActivity.xml
+			layout-port\selectWorkoutsActivity.xml
+			

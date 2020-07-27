@@ -1,0 +1,21 @@
+Loading data from file:
+
+	.separator ","
+	.import file.txt tableName
+
+
+Load table,SQL from file:
+
+	.read file.txt 
+
+Show table
+
+	.schema tableName
+
+Save 
+
+	.backup saveName
+
+Load
+
+	.restore fileName

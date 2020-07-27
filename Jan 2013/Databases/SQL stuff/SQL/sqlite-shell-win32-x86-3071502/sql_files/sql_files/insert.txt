@@ -1,0 +1,2 @@
+insert into preq values ('&a1', '&a2');
+

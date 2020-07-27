@@ -1,0 +1,5 @@
+Come up with scenarios
+for each design classify the scenarios
+Do the table to detail the modifications required
+Show the interactions using the design notation diagram. mark the interactions
+Compare the designs by using the weighting and effort required.

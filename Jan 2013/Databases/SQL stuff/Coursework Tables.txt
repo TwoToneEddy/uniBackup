@@ -1,0 +1,10 @@
+create table DRIVER (
+DRIVER_ID integer primary key,
+DRIVER_NAME text,
+DOB date,
+TEAM_NAME text,
+constraint fkey1 foreign key (TEAM_NAME) references TEAM(TEAM_NAME));
+
+create table TEAM (
+DRIVER_NAME text primary key,
+LOCATION text);

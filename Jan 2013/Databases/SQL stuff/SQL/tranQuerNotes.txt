@@ -1,0 +1,15 @@
+Queries:
+display leader board
+display quickest race time for a circuit
+display average points per race
+display team leaderboard
+
+display highest finishing position for driver //not sure if possible
+
+
+
+
+
+transactions:
+delete team
+delete race

@@ -1,0 +1,9 @@
+Open GL tutorial:
+http://www3.ntu.edu.sg/home/ehchua/programming/android/Android_3D.html
+
+Sphere in opengl
+http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html
+
+Sphere texture mapping:
+http://en.wikibooks.org/wiki/GLSL_Programming/GLUT/Textured_Spheres
+

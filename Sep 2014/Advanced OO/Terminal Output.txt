@@ -1,0 +1,300 @@
+ion supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$UnixCaret.class): major version 52 is newer than 51, the highest major versi
+on supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$TreeInfo.class): major version 52 is newer than 51, the highest major versio
+n supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$StartS.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Start.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SliceUS.class): major version 52 is newer than 51, the highest major version
+ supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SliceU.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SliceS.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SliceNode.class): major version 52 is newer than 51, the highest major versi
+on supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SliceIS.class): major version 52 is newer than 51, the highest major version
+ supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SliceI.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Slice.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SingleU.class): major version 52 is newer than 51, the highest major version
+ supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SingleS.class): major version 52 is newer than 51, the highest major version
+ supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$SingleI.class): major version 52 is newer than 51, the highest major version
+ supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Single.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Script.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Ques.class): major version 52 is newer than 51, the highest major version su
+pported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Prolog.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Pos.class): major version 52 is newer than 51, the highest major version sup
+ported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$NotBehindS.class): major version 52 is newer than 51, the highest major vers
+ion supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$NotBehind.class): major version 52 is newer than 51, the highest major versi
+on supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Node.class): major version 52 is newer than 51, the highest major version su
+pported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Neg.class): major version 52 is newer than 51, the highest major version sup
+ported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Loop.class): major version 52 is newer than 51, the highest major version su
+pported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$LineEnding.class): major version 52 is newer than 51, the highest major vers
+ion supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$LazyLoop.class): major version 52 is newer than 51, the highest major versio
+n supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$LastNode.class): major version 52 is newer than 51, the highest major versio
+n supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$LastMatch.class): major version 52 is newer than 51, the highest major versi
+on supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$HorizWS.class): major version 52 is newer than 51, the highest major version
+ supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$GroupTail.class): major version 52 is newer than 51, the highest major versi
+on supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$GroupRef.class): major version 52 is newer than 51, the highest major versio
+n supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$GroupHead.class): major version 52 is newer than 51, the highest major versi
+on supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$GroupCurly.class): major version 52 is newer than 51, the highest major vers
+ion supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$First.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$End.class): major version 52 is newer than 51, the highest major version sup
+ported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Dot.class): major version 52 is newer than 51, the highest major version sup
+ported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Dollar.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Curly.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Ctype.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Conditional.class): major version 52 is newer than 51, the highest major ver
+sion supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$CharPropertyNames.class): major version 52 is newer than 51, the highest maj
+or version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$CharProperty.class): major version 52 is newer than 51, the highest major ve
+rsion supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Category.class): major version 52 is newer than 51, the highest major versio
+n supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Caret.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$CIBackRef.class): major version 52 is newer than 51, the highest major versi
+on supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$BranchConn.class): major version 52 is newer than 51, the highest major vers
+ion supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Branch.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Bound.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$BnMS.class): major version 52 is newer than 51, the highest major version su
+pported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$BnM.class): major version 52 is newer than 51, the highest major version sup
+ported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$BmpCharProperty.class): major version 52 is newer than 51, the highest major
+ version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Block.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$BitClass.class): major version 52 is newer than 51, the highest major versio
+n supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$BehindS.class): major version 52 is newer than 51, the highest major version
+ supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Behind.class): major version 52 is newer than 51, the highest major version
+supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$Begin.class): major version 52 is newer than 51, the highest major version s
+upported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$BackRef.class): major version 52 is newer than 51, the highest major version
+ supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: C:\Program Files (x86)\Java\jre1.8.0_25\lib\rt.jar(java/util/regex/Patt
+ern$All.class): major version 52 is newer than 51, the highest major version sup
+ported by this compiler.
+  It is recommended that the compiler be upgraded.
+c:\openjml\openjml.jar(specs16/java/lang/Class.jml):226: error: The method java.
+lang.Class.setProtectionDomain0(java.security.ProtectionDomain) is a Java method
+ (neither ghost nor model) but does not match any methods in the corresponding J
+ava class.
+    native void setProtectionDomain0(java.security.ProtectionDomain pd);
+                ^
+c:\openjml\openjml.jar(specs16/java/lang/Throwable.jml):142: error: The method g
+etCause in the specification matches a Java method getCause() with different mod
+ifiers: synchronized
+    public /*@pure*//*@nullable*/ Throwable getCause();
+                                            ^
+c:\openjml\openjml.jar(specs16/java/lang/Throwable.jml):177: error: The method f
+illInStackTrace in the specification matches a Java method fillInStackTrace() wi
+th different modifiers: native
+    public synchronized native /*@non_null*/ Throwable fillInStackTrace();
+                                                       ^
+c:\openjml\openjml.jar(specs16/java/lang/reflect/Field.jml):83: error: The metho
+d java.lang.reflect.Field.getTypeName(java.lang.Class) is a Java method (neither
+ ghost nor model) but does not match any methods in the corresponding Java class
+.
+    static /*@ pure @*/ String getTypeName(Class type);
+                               ^
+c:\openjml\openjml.jar(specs16/java/math/BigInteger.jml):94: error: The method j
+ava.math.BigInteger.BigInteger(char[]) is a Java method (neither ghost nor model
+) but does not match any methods in the corresponding Java class.
+    BigInteger(char[] val);
+    ^
+B.java:6: error: An identifier with package visibility may not be used in a assi
+gnable clause with public visibility
+  //@ modifies j;
+               ^
+B.java:7: error: An identifier with package visibility may not be used in a ensu
+res clause with public visibility
+  //@ ensures j == i;
+              ^
+B.java:12: error: An identifier with package visibility may not be used in a ens
+ures clause with public visibility
+  //@ ensures j == 1;
+              ^
+c:\openjml\openjml.jar(specs16/java/lang/Throwable.jml):160: error: cannot find
+symbol
+      @   ensures _message == null ==> \result.equals(this.getClass().theString)
+;
+                                                                     ^
+  symbol:   variable theString
+  location: class Class<CAP#1>
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Throwable from capture of ? extends Throwable
+c:\openjml\openjml.jar(specs16/java/lang/Throwable.jml):161: error: cannot find
+symbol
+      @   ensures _message != null ==> \result.equals(this.getClass().theString
++ ": " + _message);
+                                                                     ^
+  symbol:   variable theString
+  location: class Class<CAP#1>
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Throwable from capture of ? extends Throwable
+Note: c:\openjml\openjml.jar(specs16/java/util/Arrays.jml) uses unchecked or uns
+afe operations.
+Note: Recompile with -Xlint:unchecked for details.
+10 errors
+100 warnings
+
+C:\>
+
+C:\>

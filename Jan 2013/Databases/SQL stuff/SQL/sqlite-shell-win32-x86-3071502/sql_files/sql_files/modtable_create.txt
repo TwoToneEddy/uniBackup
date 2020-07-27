@@ -1,0 +1,3 @@
+create table module (
+module_id text,
+module_title text);

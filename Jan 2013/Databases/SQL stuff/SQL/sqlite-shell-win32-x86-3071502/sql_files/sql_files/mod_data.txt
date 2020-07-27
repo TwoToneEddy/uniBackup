@@ -1,0 +1,18 @@
+8001,Comp Systems,B,1
+8002,Intro Soft Eng,B,1
+8003,Programming1,B,1
+8008,Programming2,B,1
+8010,Software Design,A,1
+8011,Data Structures,A,1
+8012,OO Programming,A,1
+8016,Prog Structures,A,1
+8019,Formal Spec,A,1
+8024,Theory of Comp,A,1
+8027,DB Software,A,1
+8034,Proj Managment,A,1
+8048,ISAD,A,2
+8049,Database,A,2
+8015,Systems Prog,A,1
+8021,Networks,A,1
+8606,Discrete Maths,B,1
+NONE,RI complement,B,1

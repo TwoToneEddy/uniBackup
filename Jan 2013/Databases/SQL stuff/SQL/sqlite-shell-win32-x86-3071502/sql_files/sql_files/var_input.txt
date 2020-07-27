@@ -1,0 +1,1 @@
+insert into MODULE values (:code, :title, :status, :credit);

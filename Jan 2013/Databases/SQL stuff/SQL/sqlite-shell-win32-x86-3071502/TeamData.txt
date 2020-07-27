@@ -1,0 +1,11 @@
+Infiniti Red Bull Racing,Austria
+Scuderia Ferrari,Italy
+Vodafone McLaren Mercedes,United Kingdon
+Lotus F1 Team,United Kingdom
+Mercedes AMG Petronas F1 Team,Germany
+Sauber F1 Team,Switzerland
+Sahara Force India F1 Team,India
+Williams F1 Team,United Kingdom
+Scuderia Toro Rosso,Italy
+Caterham F1 Team,Malaysia
+Marussia F1 Team,Russia

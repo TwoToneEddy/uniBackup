@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.1//EN" "http://www.web3d.org/specifications/x3d-3.1.dtd">
+<X3D profile='Immersive' version='3.0' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <head>
+    <meta content='ColorInterpolatorExample.x3d' name='filename'/>
+    <meta content='Demonstrate basic design pattern for animating a node.' name='description'/>
+    <meta content='Don Brutzman' name='creator'/>
+    <meta content='17 April 2005' name='created'/>
+    <meta content='28 January 2008' name='modified'/>
+    <meta content='ColorInterpolatorExampleSceneGraphWithRoutes.png' name='drawing'/>
+    <meta content='ColorInterpolatorExample4Colors.png' name='image'/>
+    <meta content='Animation ColorInterpolator' name='keywords'/>
+    <meta content='http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter07-EventAnimationInterpolation/ColorInterpolatorExample.x3d' name='identifier'/>
+    <meta content='X3D-Edit 3.2, https://savage.nps.edu/X3D-Edit' name='generator'/>
+    <meta content='../../license.html' name='license'/>
+  </head>
+  <Scene>
+    <Group>
+      <!-- Place triggering text above sphere of interest -->
+      <Transform translation='0 2 0'>
+        <Shape>
+          <Text string='"Touch text to" "start animation..."'>
+            <FontStyle justify='"MIDDLE" "MIDDLE"'/>
+          </Text>
+        </Shape>
+        <!-- This TouchSensor only reacts to user clicking on the sibling Shape and Text, because it is under a parent Transform grouping node -->
+        <TouchSensor DEF='TextTriggerTouchSensor' description='Touch text to start...'/>
+      </Transform>
+      <!-- Here is Sphere with accompanying Material that will get animated -->
+      <Transform translation='0 -1 0'>
+        <Shape>
+          <Sphere/>
+          <Appearance>
+            <!-- SphereMaterial diffuseColor gets overridden by interpolator output -->
+            <Material DEF='SphereMaterial' diffuseColor='0.5 0.5 0.5'/>
+          </Appearance>
+        </Shape>
+      </Transform>
+      <!-- TimeSensor is triggered to start by TouchSensor, then sends animating values to Interpolator -->
+      <TimeSensor DEF='AnimationClock' cycleInterval='6' loop='false'/>
+      <!-- ROUTE 1: TouchSensor trigger to TimeSensor clock -->
+      <ROUTE fromField='touchTime' fromNode='TextTriggerTouchSensor' toField='startTime' toNode='AnimationClock'/>
+      <!-- Interpolator: ColorChanger interpolates evenly between red, green, blue and then back to red -->
+      <ColorInterpolator DEF='ColorChanger' key='0 0.3333 0.6666 1' keyValue='1 0 0 0 1 0 0 0 1 1 0 0'/>
+      <!-- ROUTE 2: the ColorChanger interpolator gets stimulated by AnimationClock TimeSensor fraction to compute a color value -->
+      <ROUTE fromField='fraction_changed' fromNode='AnimationClock' toField='set_fraction' toNode='ColorChanger'/>
+      <!-- ROUTE 3: Interpolator output is sent to target node of interest. Changed color value is routed to SphereMaterial color. -->
+      <ROUTE fromField='value_changed' fromNode='ColorChanger' toField='diffuseColor' toNode='SphereMaterial'/>
+    </Group>
+  </Scene>
+</X3D>

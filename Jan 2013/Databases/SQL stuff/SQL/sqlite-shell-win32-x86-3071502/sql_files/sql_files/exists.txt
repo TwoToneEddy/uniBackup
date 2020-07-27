@@ -1,0 +1,6 @@
+select *
+from STUDENT
+where not exists  
+	(select * from REGISTER
+	where REGISTER.SNAME = STUDENT.NAME   
+	and REGISTER. MCODE = '8011');

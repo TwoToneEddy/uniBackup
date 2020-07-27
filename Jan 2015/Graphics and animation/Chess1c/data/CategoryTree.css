@@ -1,0 +1,36 @@
+.CategoryTreeChildren {
+	MARGIN-LEFT: 1.5ex
+}
+.CategoryTreeBullet {
+	CURSOR: hand
+}
+.CategoryTreeBullet A {
+	TEXT-DECORATION: none; speak: none
+}
+.CategoryTreeBullet A:link {
+	TEXT-DECORATION: none; speak: none
+}
+.CategoryTreeBullet A:active {
+	TEXT-DECORATION: none; speak: none
+}
+.CategoryTreeBullet A:visited {
+	TEXT-DECORATION: none; speak: none
+}
+.CategoryTreeLabelPage {
+	FONT-STYLE: italic
+}
+.CategoryTreeParents {
+	FONT-STYLE: italic; MARGIN-TOP: 1.5ex
+}
+.CategoryTreeResult {
+	MARGIN-TOP: 1.5ex
+}
+.CategoryTreeTag {
+	MARGIN-TOP: 0.5ex; MARGIN-BOTTOM: 0.5ex
+}
+.CategoryTreeNotice {
+	FONT-STYLE: italic
+}
+.CategoryTreeCategoryBarItem {
+	PADDING-BOTTOM: 0px; MARGIN: -0.5ex 0px 0px 1ex; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline-block; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}

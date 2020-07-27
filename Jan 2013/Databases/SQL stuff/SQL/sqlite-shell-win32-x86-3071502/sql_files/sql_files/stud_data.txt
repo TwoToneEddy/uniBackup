@@ -1,0 +1,6 @@
+John,M,CPS,Oxford,27-SEP-07
+Mary,F,COIF,London,27-SEP-07
+David,M,IFIN,Glasgow,27-SEP-06
+Anne,F,SH,Oxford,27-SEP-07
+Zoe,F,SH,London,27-SEP-06
+Brian,M,COIN,Banbury,06-JAN-08

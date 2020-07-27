@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rock"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    tools:context="com.example.progressiveoverload.EditWorkoutsDetailFragment" >
+    
+    <Button
+        android:id="@+id/removeExerciseButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/removeExerciseButtonText" />
+    
+    <Button
+        android:id="@+id/saveWorkoutButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveWorkoutButtonText" />
+
+    <TextView
+        android:id="@+id/detailsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="20dip"
+        android:text="Default Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dip" />
+
+</LinearLayout> 

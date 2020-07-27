@@ -1,0 +1,9 @@
+C:\JUNIT>java org.junit.runner.JUnitCore ModelTest
+JUnit version 4.10
+....
+Time: 0
+
+OK (4 tests)
+
+
+C:\JUNIT>java org.junit.runner.JUnitCore ModelTest

@@ -1,0 +1,53 @@
+File names:
+	Java:
+		EditWorkouts.java					-	EditExercises.java				
+			EditWorkouts					-	EditExercises
+			activity_edit_workouts			-	activity_edit_exercises
+			editWorkoutsDetailFrag			-	editExercisesDetailFrag
+			EditWorkoutsDetailFragment		-	EditExercisesDetailFragment
+			EditWorkoutsDetailActivity		-	EditExercisesDetailActivity
+			EditWorkoutsListFragment		-	EditExercisesListFragment
+		EditWorkoutsDetailActivity.java		-	EditExercisesDetailActivity.java
+			EditWorkoutsDetailActivity		-	EditExercisesDetailActivity
+			EditWorkoutsDetailFragment		-	EditExercisesDetailFragment
+			editWorkoutsDetailFrag			-	editExercisesDetailFrag
+			detailFragment					-	exerciseDetailFragment
+			activity_edit_workouts_detail	-	activity_edit_exercises_detail
+		EditWorkoutsDetailFragment.java		-	EditExercisesDetailFragment.java
+			EditWorkoutsDetailFragment		-	EditExercisesDetailFragment
+			fragment_edit_workouts_detail	-	fragment_edit_exercises_detail
+			detailsText						-	exerciseDetailsText
+		EditWorkoutListFragment.java		-	EditExerciseListFragment.java
+			EditWorkoutsListFragment		-	EditExercisesListFragment
+			fragment_edit_workouts_list		-	fragment_edit_exercises_list
+			button1
+	XML:
+		Land:
+			activity_edit_workouts.xml
+				editWorkoutsListFrag
+				EditWorkoutsListFragment
+				editWorkoutsDetailFrag
+				EditWorkoutsDetailFragment
+			activity_edit_workouts_detail.xml
+				editWorkoutsDetailFrag
+				EditWorkoutsDetailFragment
+			fragment_edit_workouts_detail.xml
+				EditWorkoutsDetailFragment
+				removeExerciseButton
+				removeExerciseButtonText
+				saveWorkoutButton
+				saveWorkoutButtonText
+				detailsText
+			fragment_edit_workouts_list.xml
+				EditWorkoutsListFragment
+				workoutList
+				button1
+				createWorkoutButton
+				createWorkoutButtonText
+				removeWorkoutButton
+				removeWorkoutButtonText
+				
+		Port:
+			activity_edit_workouts.xml
+				EditWorkoutsListFragment
+				editWorkoutsListFrag

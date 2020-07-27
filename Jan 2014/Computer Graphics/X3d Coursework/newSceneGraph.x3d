@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.2//EN" "http://www.web3d.org/specifications/x3d-3.2.dtd">
+<X3D profile='Immersive' version='3.2' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.2.xsd'>
+    <head>
+        <meta content='*enter FileNameWithNoAbbreviations.x3d here*' name='title'/>
+        <meta content='*enter description here, short-sentence summaries preferred*' name='description'/>
+        <meta content='*enter name of original author here*' name='creator'/>
+        <meta content='*if manually translating VRML-to-X3D, enter name of person translating here*' name='translator'/>
+        <meta content='*enter date of initial version here*' name='created'/>
+        <meta content='*enter date of translation here*' name='translated'/>
+        <meta content='*enter date of latest revision here*' name='modified'/>
+        <meta content='*enter version here, if any*' name='version'/>
+        <meta content='*enter reference citation or relative/online url here*' name='reference'/>
+        <meta content='*enter additional url/bibliographic reference information here*' name='reference'/>
+        <meta content='*enter reference resource here if required to support function, delivery, or coherence of content*' name='requires'/>
+        <meta content='*enter copyright information here* Example: Copyright (c) Web3D Consortium Inc. 2008' name='rights'/>
+        <meta content='*enter drawing filename/url here*' name='drawing'/>
+        <meta content='*enter image filename/url here*' name='image'/>
+        <meta content='*enter movie filename/url here*' name='MovingImage'/>
+        <meta content='*enter photo filename/url here*' name='photo'/>
+        <meta content='*enter subject keywords here*' name='subject'/>
+        <meta content='*enter permission statements or url here*' name='accessRights'/>
+        <meta content='*insert any known warnings, bugs or errors here*' name='warning'/>
+        <meta content='*enter online Uniform Resource Identifier (URI) or Uniform Resource Locator (URL) address for this file here*' name='identifier'/>
+        <meta content='X3D-Edit, https://savage.nps.edu/X3D-Edit' name='generator'/>
+        <meta content='../../license.html' name='license'/>
+        <!-- Additional authoring resources for meta-tags: http://www.dublincore.org/documents/dcmi-terms http://www.dublincore.org/documents/dces http://www.w3.org/TR/html4/struct/global.html#h-7.4.4 http://vancouver-webpages.com/META http://vancouver-webpages.com/META/about-mk-metas2.html Additional authoring resources for language codes: ftp://ftp.isi.edu/in-notes/bcp/bcp47.txt http://www.loc.gov/standards/iso639-2/langhome.html http://www.iana.org/numbers.html#L -->
+    </head>
+    <Scene>
+        <Background skyColor='0.5 0.5 1'/>
+        <Viewpoint description='Front' orientation='0 1 0 0' position='1.825 1 2'/> 
+        <Viewpoint description='FrontAngle' orientation='0 1 0 0.5' position='6 2 10'/> 
+        <Viewpoint description='Landing' orientation='0 1 0 0' position='4 6 -6'/>
+       
+        <PointLight color='1 1 0.9' intensity='0.5' location='1.825 1 -2' radius='3'/>
+        <PointLight ambientIntensity='0.3' attenuation='0 0 0' location='0 10 2' radius='5'/>
+       <Shape>
+                <Appearance>	
+                    <Material diffuseColor='0 1 0'/>
+                    <ImageTexture url='"grass.jpg"'/>
+                    <TextureTransform scale='10 10'/>
+                </Appearance>
+                <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+                    <Coordinate point='-100 -0.01 100 100 -0.01 100 100 -0.01 -100 -100 -0.01 -100'/>
+                </IndexedFaceSet>
+      </Shape>
+       
+       <Group DEF='lobbyPorch'>
+           <Shape>
+                <Appearance>	
+                    <Material diffuseColor='1 0.9 0.9'/>
+                </Appearance>
+                <IndexedFaceSet coordIndex='0 3 2 1 -1 0 1 5 4 -1 1 2 6 5 -1 0 4 7 3 -1 4 5 6 7 -1'>
+                    <Coordinate point='-0.25 2 2.25 3.8 2 2.25 3.8 2 0 -0.25 2 0 -0.25 2.4 2.25 3.8 2.4 2.25 3.8 2.4 0 -0.25 2.4 0'/>
+                </IndexedFaceSet>
+           </Shape>
+           <Transform translation='1.775 2.35 2.26'>
+                <Shape>
+                    <Text string='TECHNOLOGY' solid='false'>
+                        <FontStyle justify='"MIDDLE" "MIDDLE"' size='0.3'/>
+                    </Text>
+                    <Appearance><Material/></Appearance>
+                </Shape>
+           </Transform>
+            <Shape>
+                <Appearance>	
+                    <Material diffuseColor='1 1 1' />
+                     <ImageTexture url='"carpet.jpg"'/>
+                     <TextureTransform center='0.5 0.5' scale='2 2'/>
+                </Appearance>
+                <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+                    <Coordinate point='0 0 0 0 0 2 3.65 0 2 3.65 0 0' />
+                </IndexedFaceSet>
+            </Shape>
+            <Group DEF='sideWindow'>
+                <Shape>
+                    <Appearance>	
+                        <Material diffuseColor='1 0.9 1' transparency='0.5'/>
+                    </Appearance>
+                    <IndexedFaceSet coordIndex='0 1 2 3 -1 4 7 6 5 -1 7 3 2 6'>
+                        <Coordinate point='0 0 0.1 0 0 1.9 0 2 1.9 0 2 0.1 0.05 0 0.1 0.05 0 1.9 0.05 2 1.9 0.05 2 0.1'/>
+                    </IndexedFaceSet>
+                </Shape>
+            </Group>
+            
+            <Transform translation='3.6 0 0'>
+                <Group USE='sideWindow'/>
+            </Transform>
+            
+            
+            <Group DEF='frontWindow'>
+                <Shape>
+                    <Appearance>	
+                        <Material diffuseColor='1 0.9 1' transparency='0.5'/>
+                    </Appearance>
+                    <IndexedFaceSet coordIndex='0 1 2 3 -1 4 7 6 5 -1 7 3 2 6'>
+                        <Coordinate point='0.1 0 2 1.325 0 2 1.325 2 2 0.1 2 2 0.1 0 1.95 1.325 0 1.95 1.325 2 1.95 0.1 2 1.95'/>
+                    </IndexedFaceSet>
+                </Shape>
+            </Group>
+            
+            <Transform translation='2.225 0 0'>
+                <Group USE='frontWindow'/>
+            </Transform>
+            <Transform translation='0 0 -1.95'>
+                <Group USE='frontWindow'/>
+            </Transform>
+            <Transform translation='2.225 0 -1.95'>
+                <Group USE='frontWindow'/>
+            </Transform>
+         
+            <Group DEF='lobbyPorchPillar'>
+                <Transform translation='0.05 1 0.05'>
+                    <Shape bboxSize='1 2 1'>
+                        <Box size='0.1 2 0.1' />
+                        <Appearance>
+                            <Material diffuseColor='1 1 1' />
+                        </Appearance>
+                    </Shape>
+                </Transform>
+            </Group>
+            <Transform DEF='WORK' center='1.475 1 2' rotation='0 0 0 -0.3'>
+                <Group DEF='doorPillar'>
+                    <Transform translation='1.475 1 2'>
+                        <Shape bboxSize='1 2 1'>
+                            <Cylinder radius='0.05' />
+                            <Appearance>
+                                <Material diffuseColor='1 1 1' />
+                            </Appearance>
+                        </Shape>
+                    </Transform>
+                </Group>
+                <Transform translation='0.7 0 0'>
+                    <Group USE='doorPillar' />
+                </Transform>
+                <Group DEF='doorGlass'>
+                    <Shape>
+                        <Appearance>	
+                            <Material diffuseColor='1 0.9 1' transparency='0.5' />
+                            <ImageTexture url='"glass.jpg"' />
+                            <TextureTransform center='0.5 0.5' scale='0.05 0.02' />
+                        </Appearance>
+                        <IndexedFaceSet coordIndex='0 1 2 3 -1 4 7 6 5 -1 '>
+                            <Coordinate point='1.525 0 2.02 2.125 0 2.02 2.125 2 2.02 1.525 2 2.02 1.525 0 1.98 2.125 0 1.98 2.125 2 1.98 1.525 2 1.98' />
+                        </IndexedFaceSet>
+                    </Shape>
+                </Group>
+            </Transform>
+            <Transform translation='3.55 0 0'>
+                <Group USE='lobbyPorchPillar'/>
+            </Transform>
+            <Transform translation='3.55 0 1.9'>
+                <Group USE='lobbyPorchPillar'/>
+            </Transform>
+            <Transform translation='0 0 1.9'>
+                <Group USE='lobbyPorchPillar'/>
+            </Transform>
+            <Transform translation='1.325 0 1.9'>
+                <Group USE='lobbyPorchPillar'/>
+            </Transform>
+            <Transform translation='2.225 0 1.9'>
+                <Group USE='lobbyPorchPillar'/>
+            </Transform>
+            
+            <Transform translation='1.325 0 0'>
+                <Group USE='lobbyPorchPillar'/>
+            </Transform>
+            <Transform translation='2.225 0 0'>
+                <Group USE='lobbyPorchPillar'/>
+            </Transform>
+        </Group>
+        
+      
+         <Group DEF='mainLobbyFloor'>
+            <Shape>
+                <Appearance>	
+                    <Material diffuseColor='1 1 1' />
+                     <ImageTexture url='"carpet.jpg"'/>
+                     <TextureTransform center='0.5 0.5' scale='5 5'/>
+                </Appearance>
+                <IndexedFaceSet coordIndex='1 2 3 0 -1'>
+                    <Coordinate point='-0.5 0 0 4.15 0 0 4.15 0 -11 -0.5 0 -11'/>
+                </IndexedFaceSet>
+            </Shape>
+         </Group>
+         <Transform translation='-4.65 0 0'>
+                <Group USE='mainLobbyFloor' />
+         </Transform>
+         <Transform translation='4.65 0 0'>
+                <Group USE='mainLobbyFloor' />
+         </Transform>
+         
+         <Group DEF='mainLobbyLeftWall'>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1'/>
+                     <ImageTexture url='"800px-Bricks-4172.jpg"'/>
+                     <TextureTransform center='0.5 0.5' rotation='1.570796' scale='4 4'/>
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 1 2 3 4 -1'>
+                     <Coordinate point='-0.5 0 0 -0.5 0 -6 -0.5 6 -6 -0.5 6 -2 -0.5 4 0'/>
+                 </IndexedFaceSet>
+             </Shape>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1' />
+                     <TextureCoordinate point='0 0, 1 0, 1 1, 0 1, 0.5 0, 0.5 1, 0 1, 0 ' />
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+                     <Coordinate point='-0.5 2 -6 -0.5 2 -6.8 -0.5 6 -6.8 -0.5 6 -6'/>
+                 </IndexedFaceSet>
+             </Shape>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1' />
+                     <TextureCoordinate point='0 0, 1 0, 1 1, 0 1, 0.5 0, 0.5 1, 0 1, 0 ' />
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+                     <Coordinate point='-0.5 0 -6.8 -0.5 0 -11 -0.5 6 -11 -0.5 6 -6.8'/>
+                 </IndexedFaceSet>
+             </Shape>
+         </Group>
+         <Transform translation='4.65 0 0'>
+                <Group DEF='mainLobbyRightWall'>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1' />
+                          <ImageTexture url='"plasterboard.jpg"'/>
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 4 3 2 1 -1'>
+                     <Coordinate point='-0.5 0 0 -0.5 0 -6 -0.5 6 -6 -0.5 6 -2 -0.5 4 0'/>
+                 </IndexedFaceSet>
+             </Shape>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1' />
+                          <ImageTexture url='"plasterboard.jpg"'/>
+                     <TextureCoordinate point='0 0, 1 0, 1 1, 0 1, 0.5 0, 0.5 1, 0 1, 0 ' />
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 3 2 1 -1'>
+                     <Coordinate point='-0.5 2 -6 -0.5 2 -6.8 -0.5 6 -6.8 -0.5 6 -6'/>
+                 </IndexedFaceSet>
+             </Shape>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1' />
+                          <ImageTexture url='"plasterboard.jpg"'/>
+                     <TextureCoordinate point='0 0, 1 0, 1 1, 0 1, 0.5 0, 0.5 1, 0 1, 0 ' />
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 3 2 1 -1'>
+                     <Coordinate point='-0.5 0 -6.8 -0.5 0 -11 -0.5 6 -11 -0.5 6 -6.8'/>
+                 </IndexedFaceSet>
+             </Shape>
+         </Group>
+         </Transform>
+        
+       <Group DEF='mainLobbyBackWall'>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1'/>
+                     <TextureCoordinate point='0 0, 1 0, 1 1, 0 1, 0.5 0, 0.5 1, 0 1, 0 ' />
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+                     <Coordinate point='-0.5 0 -11 4.15 0 -11 4.15 6 -11 -0.5 6 -11'/>
+                 </IndexedFaceSet>
+             </Shape>
+       </Group>
+      <Group DEF='Stairs'> 
+            <Group DEF='Step'>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='0.007843 0.227451 0.301961'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+                          <Coordinate point='2.65 0 -7 4.15 0 -7 4.15 0.25 -7 2.65 0.25 -7'/>
+                      </IndexedFaceSet>
+                  </Shape>
+            </Group>
+
+            <Transform center='0 0 -7' rotation='1 0 0 -1.57' translation='0 0.25 0'>
+                <Group USE='Step' />
+            </Transform>
+
+            <Transform translation='0 0.25 -0.25'>
+                <Group USE='Step' />
+            </Transform>
+
+            <Transform center='0 0 -7' rotation='1 0 0 -1.57' translation='0 0.5 -0.25'>
+                <Group USE='Step' />
+            </Transform>
+
+            <Transform translation='0 0.5 -0.5'>
+                <Group USE='Step' />
+            </Transform>
+            <Transform center='0 0 -7' rotation='1 0 0 -1.57' translation='0 0.75 -0.5'>
+                <Group USE='Step' />
+            </Transform>
+
+            <Transform translation='0 0.75 -0.75'>
+                <Group USE='Step' />
+            </Transform>
+            <Transform center='0 0 -7' rotation='1 0 0 -1.57' translation='0 1 -0.75'>
+                <Group USE='Step' />
+            </Transform>
+
+            <Transform translation='0 1 -1'>
+                <Group USE='Step' />
+            </Transform>
+            <Transform center='0 0 -7' rotation='1 0 0 -1.57' translation='0 1.25 -1'>
+                <Group USE='Step' />
+            </Transform>
+
+            <Transform translation='0 1.25 -1.25'>
+                <Group USE='Step' />
+            </Transform> 
+            <Transform center='0 0 -7' rotation='1 0 0 -1.57' translation='0 1.5 -1.25'>
+                <Group USE='Step' />
+            </Transform>
+
+            <Transform translation='0 1.5 -1.5'>
+                <Group USE='Step' />
+            </Transform> 
+            <Transform center='0 0 -7' rotation='1 0 0 -1.57' translation='0 1.75 -1.5'>
+                <Group USE='Step' />
+            </Transform>    
+      </Group>
+      
+       <Group DEF='landing'>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1'/>
+                            <ImageTexture url='"carpet.jpg"'/>
+                            <TextureTransform scale="8 8"/>
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+                     <Coordinate point='2.65 1.75 -8.5 4.15 1.75 -8.5 4.15 1.75 -11 2.65 1.75 -11'/>
+                 </IndexedFaceSet>
+             </Shape>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1'/>
+                            <ImageTexture url='"carpet.jpg"'/>
+                            <TextureTransform center='0.5 0.5' rotation='1.570796' scale='2 20'/>
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 1 2 3 -1 4 7 6 5'>
+                     <Coordinate point='-0.5 3.5 -7 1 3.5 -7 1 3.5 -11 -0.5 3.5 -11 -0.5 3 -7 1 3 -7 1 3 -11 -0.5 3 -11'/>
+                 </IndexedFaceSet>
+             </Shape>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1'/>
+                            <ImageTexture url='"carpet.jpg"'/>
+                            <TextureTransform center='0.5 0.5' rotation='1.570796' scale='2 20'/>
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 1 2 3 -1 4 7 6 5 -1 4 5 1 0 -1'>
+                     <Coordinate point='-0.5 3.5 -5.5 4.15 3.5 -5.5 4.15 3.5 -7 -0.5 3.5 -7 -0.5 3 -5.5 4.15 3 -5.5 4.15 3 -7 -0.5 3 -7'/>
+                 </IndexedFaceSet>
+             </Shape>
+             <Shape>
+                 <Appearance>	
+                     <Material diffuseColor='1 1 1'/>
+                 </Appearance>
+                 <IndexedFaceSet coordIndex='0 3 2 1 -1'>
+                     <Coordinate point='1 3 -11 1 3 -8.5 2.65 1.75 -8.5 2.65 1.75 -11'/>
+                 </IndexedFaceSet>
+             </Shape>
+       </Group>
+       <Transform center='2.65 0 -7' rotation='0 1 0 1.57' translation='0 1.75 -2.5'>
+                <Group USE='Stairs' />
+       </Transform> 
+        
+            <Group DEF='Lift'>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='1 1 1'/>
+                          <ImageTexture url='"plasterboard.jpg"'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='0 1 2 3 -1 1 5 6 2 -1 5 4 7 6 -1 2 6 7 3 -1 4 0 3 7 -1 1 0 4 5 -1' texCoordIndex='0 1 2 3 -1 0 1 2 3 -1 0 1 2 3 -1 0 1 2 3 -1 0 1 2 3 -1 0 1 2 3 -1'>
+                          <Coordinate point='1 0 -7 2.65 0 -7 2.65 6 -7 1 6 -7 1 0 -9.5 2.65 0 -9.5 2.65 6 -9.5 1 6 -9.5' />
+                            <TextureCoordinate point='0 1 0 0 1 1 1 0'/>
+                      </IndexedFaceSet>
+                  </Shape>
+            </Group>
+            <Group DEF='BalcWall'>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='1 1 1'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='4 5 6 7 -1 7 6 2 3 -1 5 4 0 1 -1 0 3 2 1 -1'>
+                          <Coordinate point='-0.5 2.5 -5.5 4.15 2.5 -5.5 4.15 4 -5.5 -0.5 4 -5.5 -0.5 2.5 -5.25 4.15 2.5 -5.25 4.15 4 -5 -0.5 4 -5'/>
+                      </IndexedFaceSet>
+                  </Shape>
+            </Group>
+            <Group DEF='FrontLeftWall'>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='1 1 1'/>
+                          <ImageTexture url='"outsideBricks.jpg"'/>
+                          <TextureTransform center='0.5 0.5' scale='2 2'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='0 1 6 7 -1 1 8 9 2 -1 3 10 11 4 -1 5 12 13 6 -1 8 15 14 13 -1 '>
+                          <Coordinate point='-5.15 0 0 -3.825 0 0 -3.825 0.614 0 -3.825 1.614 0 -3.825 2.577 0 -3.825 3.577 0 -3.825 4 0 -5.15 4 0 -1.825 0 0 -1.825 0.614 0 -1.825 1.614 0 -1.825 2.577 0 -1.825 3.577 0 -1.825 4 0 -0.5 4 0 -0.5 0 0 -5.15 6 -2 -0.5 6 -2' />
+                      </IndexedFaceSet>
+                  </Shape>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='1 1 1'/>
+                          <ImageTexture url='"roof.jpg"'/>
+                          <TextureTransform center='0.5 0.5' rotation='1.570796' scale='4 4'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='0 1 2 3 -1 '>
+                          <Coordinate point='-5.15 4 0 -0.5 4 0 -0.5 6 -2 -5.15 6 -2'/>
+                      </IndexedFaceSet>
+                  </Shape>
+            </Group>
+            <Group DEF='FrontMiddleWall'>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='1 1 1'/>
+                          <ImageTexture url='"outsideBricks.jpg"'/>
+                          <TextureTransform center='0.5 0.5'  scale='2 2'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='0 1 3 4 -1 2 5 8 3 -1 5 9 10 6 -1 7 11 12 8 -1 9 14 15 12 -1 13 16 17 15 -1'>
+                          <Coordinate point='-0.5 0 0 0 0 0 0 2 0 0 4 0 -0.5 4 0 0.825 2 0 0.825 2.577 0 0.825 3.577 0 0.825 4 0 2.825 2 0 2.825 2.577 0 2.825 3.577 0 2.825 4 0 3.65 0 0 3.65 2 0 3.65 4 0 4.15 0 0 4.15 4 0 -0.5 6 -2 4.15 6 -2' />
+                      </IndexedFaceSet>
+                  </Shape>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='1 1 1'/>
+                          <ImageTexture url='"plasterboard.jpg"'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='4 3 1 0 -1 3 8 5 2 -1 6 10 9 5 -1 8 12 11 7 -1 12 15 14 9 -1 15 17 16 13 -1' solid='false'>
+                          <Coordinate point='-0.5 0 -0.01 0 0 -0.01 0 2 -0.01 0 4 -0.01 -0.5 4 -0.01 0.825 2 -0.01 0.825 2.577 -0.01 0.825 3.577 -0.01 0.825 4 -0.01 2.825 2 -0.01 2.825 2.577 -0.01 2.825 3.577 -0.01 2.825 4 -0.01 3.65 0 -0.01 3.65 2 -0.01 3.65 4 -0.01 4.15 0 -0.01 4.15 4 -0.01' />
+                      </IndexedFaceSet>
+                  </Shape>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='1 1 1'/>
+                          <ImageTexture url='"roof.jpg"'/>
+                          <TextureTransform center='0.5 0.5' rotation='1.570796' scale='4 4'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+                          <Coordinate point='-0.5 4 0 4.15 4 0 4.15 6 -2 -0.5 6 -2'/>
+                      </IndexedFaceSet>
+                  </Shape>
+                  <Shape>
+                      <Appearance>	
+                          <Material diffuseColor='1 1 1'/>
+                          <ImageTexture url='"plasterboard.jpg"'/>
+                          <TextureTransform center='0.5 0.5' rotation='1.570796' scale='1 1'/>
+                      </Appearance>
+                      <IndexedFaceSet coordIndex='3 2 1 0 -1'>
+                          <Coordinate point='-0.5 4 -0.01 4.15 4 -0.01 4.15 6 -2.01 -0.5 6 -2'/>
+                      </IndexedFaceSet>
+                  </Shape>
+            </Group>
+            <Transform translation='9.3 0 0'>
+                <Group USE='FrontLeftWall' />
+            </Transform>        
+       
+       
+            <Transform rotation='0 1 0 -3.14' scale='0.5 0.5 0.5' translation='0 0.3 -2'>
+                <!--TODO add children nodes here-->
+	
+                <Group DEF='Chair'>
+                    <Group DEF='Cusion'>
+                        <Shape>
+                            <Appearance>	
+                                <Material diffuseColor='1 1 1' />
+                                <ImageTexture url='"fabric.jpg"'/>
+                                <TextureTransform center='0.5 0.5'  scale='2 2'/>
+                            </Appearance>
+                            <IndexedFaceSet coordIndex='0 1 2 3 -1 2 6 7 3 -1 1 0 4 5 -1 6 5 4 7 -1'>
+                                <Coordinate point='-1 -0.15 1 0 -0.2 1 0 0.2 1 -1 0.15 1 -1 -0.15 -1 0 -0.2 -1 0 0.2 -1 -1 0.15 -1' />
+                            </IndexedFaceSet>
+                        </Shape>     
+                        <Transform rotation='1 0 0 -1.57'>
+                            <Shape>
+                                <Cylinder radius='0.2' />
+                                <Appearance>
+                                    <Material diffuseColor='1 1 1' />
+                                        <ImageTexture url='"fabric.jpg"'/>
+                                        <TextureTransform center='0.5 0.5'  scale='2 2'/>
+                                    <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                                </Appearance>
+                            </Shape> 
+                            <Transform translation='-1 0 0'> 
+                                <Shape>
+                                    <Cylinder radius='0.15' />
+                                    <Appearance>
+                                        <Material diffuseColor='1 1 1' />
+                                        <ImageTexture url='"fabric.jpg"'/>
+                                        <TextureTransform center='0.5 0.5'  scale='2 2'/>
+                                                      <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                                    </Appearance>
+                                </Shape>
+                            </Transform>
+                        </Transform>
+                    </Group>
+                    <Transform rotation='0 0 1 -1.77'>
+                        <Group USE='Cusion' />
+                    </Transform>
+
+                    <!-- Chair Legs -->
+                    <Transform translation='0 -0.3 0.8'> 
+                        <Shape>
+                            <Cylinder height='0.6' radius='0.02' />
+                            <Appearance>
+                                <Material diffuseColor='1 1 1' />
+                                <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                            </Appearance>
+                        </Shape>
+                    </Transform>
+
+                    <Transform translation='-1 -0.3 0.8'> 
+                        <Shape>
+                            <Cylinder height='0.6' radius='0.02' />
+                            <Appearance>
+                                <Material diffuseColor='1 1 1' />
+                                <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                            </Appearance>
+                        </Shape>
+                    </Transform>
+
+                    <Transform translation='0 -0.3 -0.8'> 
+                        <Shape>
+                            <Cylinder height='0.6' radius='0.02' />
+                            <Appearance>
+                                <Material diffuseColor='1 1 1' />
+                                <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                            </Appearance>
+                        </Shape>
+                    </Transform>
+                    <Transform translation='-1 -0.3 -0.8'> 
+                        <Shape>
+                            <Cylinder height='0.6' radius='0.02' />
+                            <Appearance>
+                                <Material diffuseColor='1 1 1' />
+                                <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                            </Appearance>
+                        </Shape>
+                    </Transform>
+                </Group>
+            </Transform>
+            <Transform scale='0.5 0.5 0.5' translation='3.65 0.3 -2'>
+                <Group USE='Chair' />
+            </Transform>  
+       
+        <Transform translation='0.825 2.577 0'>
+            <Group DEF='Window'>
+                <Group DEF='WindowHalf'>
+                    <Shape>
+                        <Appearance>	
+                            <Material diffuseColor='1 0.9 1' transparency='0.5'/>
+                        </Appearance>
+                        <IndexedFaceSet coordIndex='0 1 2 3 -1 4 7 6 5 -1'>
+                            <Coordinate point='0.07 0.07 0.017 0.93 0.07 0.017 0.93 0.66 0.017 0.07 0.66 0.017 0.07 0.07 -0.017 0.93 0.07 -0.017 0.93 0.66 -0.017 0.07 0.66 -0.017'/>
+                        </IndexedFaceSet>
+                   </Shape>
+                   <Shape>
+                        <Appearance>	
+                            <Material diffuseColor='1 0.9 1' transparency='0.5'/>
+                        </Appearance>
+                        <IndexedFaceSet coordIndex='0 1 2 3 -1 4 7 6 5 -1'>
+                            <Coordinate point='0.07 0.73 0.017 0.93 0.73 0.017 0.93 0.93 0.017 0.07 0.93 0.017 0.07 0.73 -0.017 0.93 0.73 -0.017 0.93 0.93 -0.017 0.07 0.93 -0.017'/>
+                        </IndexedFaceSet>
+                   </Shape>
+
+                    <Transform translation='0.035 0.5 0'>
+                    <Shape>
+                         <Box size='0.07 1 0.07'/>                
+                         <Appearance>
+                             <Material diffuseColor='1 1 1' />
+                             <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                         </Appearance>
+                     </Shape>
+                   </Transform>
+                   <Transform translation='0.500 0.035 0'>
+                    <Shape>
+                         <Box size='0.86 0.07 0.07'/>                
+                         <Appearance>
+                             <Material diffuseColor='1 1 1' />
+                             <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                         </Appearance>
+                     </Shape>
+                   </Transform>
+                   <Transform translation='0.500 0.695 0'>
+                    <Shape>
+                         <Box size='0.86 0.07 0.07'/>                
+                         <Appearance>
+                             <Material diffuseColor='1 1 1' />
+                             <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                         </Appearance>
+                     </Shape>
+                   </Transform>
+                   <Transform translation='0.500 0.965 0'>
+                    <Shape>
+                         <Box size='0.86 0.07 0.07'/>                
+                         <Appearance>
+                             <Material diffuseColor='1 1 1' />
+                             <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                         </Appearance>
+                     </Shape>
+                   </Transform>
+                   <Transform translation='0.965 0.5 0'>
+                    <Shape>
+                         <Box size='0.07 1 0.07'/>                
+                         <Appearance>
+                             <Material diffuseColor='1 1 1' />
+                             <!--TODO add ImageTexture, MovieTexture, PixelTexture, TextureTransform, FillProperties, and/or LineProperties nodes here-->
+                         </Appearance>
+                     </Shape>
+                   </Transform>
+              </Group>
+              <Transform translation='1 0 0'>
+                        <Group USE='WindowHalf' />
+              </Transform> 
+          </Group> 
+        </Transform>
+        <Transform translation='5.475 2.577 0'>
+                <Group USE='Window' />
+        </Transform>
+        <Transform translation='5.475 0.614 0'>
+                <Group USE='Window' />
+        </Transform>
+        <Transform translation='-3.825 0.614 0'>
+                <Group USE='Window' />
+        </Transform>
+        <Transform translation='-3.825 2.577 0'>
+                <Group USE='Window' />
+        </Transform>
+        
+        <OrientationInterpolator DEF='openDoor' key='0 0.25' keyValue='0 1 0 0 0 1 0 -1.5708'/>
+        <TimeSensor DEF='OrbitalTimeInterval' cycleInterval='6' loop='true'/>
+        <ROUTE fromField='fraction_changed' fromNode='OrbitalTimeInterval' toField='set_fraction' toNode='openDoor'/>
+        <ROUTE fromField='value_changed' fromNode='openDoor' toField='set_rotation' toNode='WORK'/>
+ <!-- 6 boxes -->
+    </Scene>
+</X3D>

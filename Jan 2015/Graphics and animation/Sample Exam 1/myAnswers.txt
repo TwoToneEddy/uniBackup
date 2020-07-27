@@ -1,0 +1,48 @@
+Sets a screen size of 400*400 and colours it yellow in the setup method.
+Every time the mouse is pressed it increments an index, if that index is
+an even number it sets the fill to green, else it sets it to red. This is
+done using the % modulo operator. after each call of mousePressed() it then
+draws a square with the starting corner at 1*sq. This as the index I increments
+this results in a diagonal line of 10 square with alternating red/green fill
+colours on a yellow background. Once 10 squares have been drawn the condi
+
+
+class Square{
+	int cX,cY,side;
+	color fillCol;
+
+	Square(int cX,int cY,int side,color fillCol){
+		this.cX = cX;
+		this.cY = cY;
+		this.side = side;
+		this.fillCol = fillCol;
+	}
+
+	void draw(){
+		fill(fillCol);
+		rect(cX,cY,side,side);
+	}
+
+}
+
+draws a circle with a diameter of 25 at the cooridnate x:400 y:200.
+
+The translate call moves the datum by 400 pixels in X and 200 pixels in Y.
+This means the datum (X:0,Y:0) is now in the center of the previously
+drawn circle. The rotate() call then rotates the frame of reference by a
+multiple of the frame count. Once the frame of reference has been both
+translated and rotated an circle of diameter 25 is drawn at X:60 Y:60 from
+the new datum. 
+
+Running A followed by B draws a black circle at 400,200 followed by a red
+circle with a center on a raduis of 60 pixels away from the black circle 
+center. Where about the red circle is drawn on this raduis depends on the 
+vaule of the index. As the program runs and the draw() method increments
+this index the position of the red circle on the radius increments in a
+clockwise direction displaying what looks like an orbit.
+
+Calling the pushMatrix() method pushes the current frame of reference onto
+a LIFO data structure called a stack. This means that the state of the frame
+of reference at the point pushMatrix() was called can easily be reverted
+to by calling popMatrix(). popMatrix() restores the current frame of reference
+to the frame of reference stored at the top of the matrix stack.

@@ -1,0 +1,14 @@
+<svg width="900" height="500" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+
+<rect width="900" height="500" style="fill:green" /> 
+<rect width="900" height="250" style="fill:blue" /> 
+<g transform="translate(450,250)"> 
+ <circle cx="-50" cy="0" r="15" style="fill:gray; stroke:none"/> 
+ <circle cx="50" cy="0" r="15" style="fill:gray; stroke:none"/> 
+ <g transform="translate(0,-10)"> 
+ <path d="M-80 0 v -20 l 40 -5 l 10 -30 h 110 v 55 z M -30 -25 l 7 -20 h 20 v 20 z" 
+ style="fill:red; stroke:none; fill-rule:evenodd"/> 
+ </g> 
+ </g> 
+</svg> 
+ 
